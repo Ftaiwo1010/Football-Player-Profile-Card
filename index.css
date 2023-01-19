@@ -1,0 +1,266 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:#28223f;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.1px);
+    -webkit-backdrop-filter: blur(0.1px);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    padding: 35px;
+    width: 350px;
+    height: 600px;
+    color: rgb(221, 223, 226);
+}
+
+
+.main img {
+    width: 100%;
+    max-width: 150px;
+    padding: 2px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 2px solid rgb(133, 131, 131);
+    background:  rgba(255, 255, 255, 0.04);
+    outline: 2px solid rgba(191, 6, 6, 0.718);
+}
+
+.main h2 {
+    font-weight: 500;
+}
+
+
+.main h3 {
+    font-weight: 400;
+    margin-top: -8px;
+}
+
+
+.club {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.1px);
+    -webkit-backdrop-filter: blur(0.1px);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.left {
+    margin-left: auto;
+}
+
+
+
+.pos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.1px);
+   -webkit-backdrop-filter: blur(0.1px);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    padding: 15px;
+}
+
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.1px);
+    -webkit-backdrop-filter: blur(0.1px);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    padding: 15px;
+}
+
+
+.btn h3 {
+    text-align: center;
+}
+
+
+.abi {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 330px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.1px);
+   -webkit-backdrop-filter: blur(0.1px);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.abi p {
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+
+
+.fllo {
+    margin-right: 20px;
+}
+
+
+@media screen and (max-width:600px) {
+    
+    .main {
+        padding: 35px;
+        width: 300px;
+        height: 530px;
+        color: rgb(255, 255, 255);
+    }
+    
+    
+    .main img {
+        max-width: 100px;
+        padding: 2px;
+        margin-top: 15px;
+    }
+
+    .main h2 {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+
+    .main h3 {
+        font-size: 10px;
+    }
+    
+    
+    .club {
+        width: 250px;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .pos {
+        width: 250px;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 10px;
+    }
+    
+    
+    .foot {
+        width: 250px;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+
+    .btn h3 {
+        font-size: 12px;
+    }
+    
+    
+    .abi {
+        gap: 20px;
+        width: 250px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    
+    .abi p {
+        border-radius: 5px;
+        font-size: 10px;
+    
+    }
+    
+    .media {
+        gap: 10px;
+        font-size: 9.6px;
+        margin-top: 10px;
+    }
+    
+    .fllo {
+        margin-right: 10px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:540px) {
+    
+
+    .main {
+        padding: 20px;
+        width: 300px;
+        height: 500px
+    }
+    
+    
+    
+    
+    .media {
+        margin-top: 15px;
+        padding-bottom: -30px;
+    }
+    
+}
+
+
+
