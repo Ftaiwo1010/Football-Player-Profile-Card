@@ -180,12 +180,19 @@
         height: 530px;
         color: rgb(255, 255, 255);
     }
+
+    .img-container {
+        width: 100px;
+        height: 100px;
+    }
     
+
     
     .main img {
         max-width: 100px;
         padding: 2px;
         margin-top: 15px;
+        bottom: 7px;
     }
 
     .main h2 {
