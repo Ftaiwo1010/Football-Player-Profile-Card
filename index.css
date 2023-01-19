@@ -38,16 +38,26 @@
     color: rgb(221, 223, 226);
 }
 
+.img-container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
 
 .main img {
+    position: relative;
+    bottom: 6px;
     width: 100%;
     max-width: 150px;
     padding: 2px;
     border-radius: 50%;
     margin-top: 15px;
-    border: 2px solid rgb(133, 131, 131);
+    border: 3px solid rgb(133, 131, 131);
     background:  rgba(255, 255, 255, 0.04);
-    outline: 2px solid rgba(191, 6, 6, 0.718);
 }
 
 .main h2 {
